@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+
+/** Container for the whole application **/
+.container {
+	@apply max-w-7xl mx-auto px-4 sm:px-6;
+}
+
+/** Default buttons **/
+.btn {
+	@apply py-1 px-10 rounded transition-all focus:shadow;
+}
+
+.btn-primary {
+	@apply bg-cyan-400 text-white hover:bg-cyan-700;
+}
+
+.btn-outlined {
+	border: 1px solid;
+	@apply text-cyan-400 border-cyan-400 hover:bg-cyan-400 hover:text-white;
+}
+
+a.social-icon {
+	border: 1px solid;
+	@apply h-8 w-8 inline-flex justify-center items-center transition-all text-cyan-400 rounded-full border-cyan-400 hover:bg-cyan-400 hover:text-white;
+}
+
+a.social-icon:not(:first-child) {
+	@apply ml-2;
+}
+
+/** It's important that the utilities shuld import at the last **/
+@tailwind utilities;

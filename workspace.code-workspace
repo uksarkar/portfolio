@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "Front-end (Svelte, TailwindCSS)",
+      "path": "frontend"
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.lint.invalidVariant": "error"
+  }
+}
